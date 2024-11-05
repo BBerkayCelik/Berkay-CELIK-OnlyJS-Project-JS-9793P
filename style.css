@@ -1,0 +1,37 @@
+*{
+    color: white;
+}
+
+body{
+    font-size: 1.02rem;
+    background-image: url(assets/1920x1080.jpg);
+    background-size: cover;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+section{
+    text-align: center;
+}
+
+div.music-section{
+    margin-top:20px;
+}
+
+i{
+    padding: 20px;
+}
+
+audio{
+    display: none;
+}
+
+button{
+    margin: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+}

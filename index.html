@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-9793P (Berkay ÇELİK)</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="distraction-section">
+        <h1>DISTRACTION COUNTER</h1>
+        <div>
+          Your phone has distracted your attention
+          <span style="font-weight: bold" id="counter">0</span> times.
+        </div>
+        <button id="click-counter">Click If The Phone is Picked Up</button>
+      </div>
+      <div class="music-section">
+        <div>You can play these songs to help you focus on your work.</div>
+        <div class="music-icons">
+          <i id="samSmithIcon" class="fa-solid fa-music"></i>
+          <audio id="samSmithAudio" controls>
+            <source src="assets/samSmith.mp3" type="audio/mp3" />
+          </audio>
+          <i id="palomaFaithIcon" class="fa-solid fa-microphone"></i>
+          <audio id="palomaFaithAudio" controls>
+            <source src="assets/palomaFaith.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
